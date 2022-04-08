@@ -1,0 +1,452 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@500;700&family=Racing+Sans+One&family=Roboto:ital@0;1&family=Rubik:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header_view {
+  background-image: url(https://uzbekistan.travel/storage/app/uploads/public/5eb/309/161/thumb_754_1920_0_0_0_auto.jpg);
+  background-position-y: center;
+}
+
+.header_left {
+  background-image: url(https://uzbekistan.travel/storage/app/uploads/public/5e5/e2b/47f/thumb_169_1920_0_0_0_auto.jpg);
+  background-position-y: center;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.search_icon {
+  color: yellowgreen;
+  font-size: 25px;
+}
+
+.title__text {
+  margin-top: 20px;
+}
+
+.tashkent_text {
+  margin-top: 10px;
+}
+
+.main_one-title {
+  font-family: "Poppins";
+  font-size: 28px;
+  margin-top: 35px;
+  margin-bottom: 20px;
+}
+
+.main_one-text {
+  color: rgba(74, 74, 74, 1);
+  font-size: 20px;
+  line-height: 26px;
+  text-align: justify;
+}
+
+.main_one-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 36px;
+}
+
+.main_one-item {
+  display: flex;
+  overflow: hidden;
+  border-radius: 10px;
+  width: 400px;
+  height: 300px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.603), 0 0 10px rgba(0, 0, 0, 0.425),
+    0 0 15px rgba(0, 0, 0, 0.39), 0 0 20px rgba(0, 0, 0, 0.452),
+    0 0 25px rgba(0, 0, 0, 0.37);
+  margin-bottom: 40px;
+}
+
+.main_one-link {
+  text-decoration: none;
+  color: #fff !important;
+  font-size: 28px;
+  letter-spacing: 4px;
+  padding: 8px 0;
+}
+
+.main_linking {
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.main_two-text span {
+  color: red;
+  font-size: 22px;
+  margin-top: 25px;
+}
+
+.main_two-text {
+  color: rgba(74, 74, 74, 1);
+  font-size: 22px;
+  text-align: justify;
+}
+
+.footer__list {
+  padding: 0;
+}
+
+.footer__link {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.38) !important;
+}
+
+.footer_cal {
+  text-decoration: none;
+}
+
+.footer_email {
+  color: white !important;
+  text-decoration: none;
+}
+
+.m_left-text {
+  color: rgba(74, 74, 74, 1);
+  font-size: 20px;
+  line-height: 40px;
+  margin-top: 15px;
+  font-weight: 600;
+  text-align: justify;
+}
+
+.m_left {
+  padding-bottom: 50px;
+}
+
+.m__yotube-title {
+  font-size: 30px;
+  font-weight: 700;
+
+  margin-bottom: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 0 20px;
+}
+
+.m__yotube-text {
+  color: rgba(74, 74, 74, 1);
+  font-size: 20px;
+  line-height: 25px;
+  margin-top: 15px;
+  font-weight: 600;
+  text-align: justify;
+  padding: 0 20px;
+}
+
+.right__title {
+  font-size: 48px;
+  font-family: "Prata", serif;
+  margin-bottom: 12px;
+  color: #000;
+}
+
+@media (max-width: 2200px) {
+  .right_item {
+    display: flex;
+    flex-shrink: 0;
+    overflow-y: scroll;
+  }
+
+  .right_item-info {
+    display: flex;
+    flex-shrink: 0;
+    overflow: hidden;
+  }
+
+  .right_item-info:-webkit-scrollbar {
+    height: 5px;
+  }
+
+  .right_item-info::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(90deg,
+        #3800af 0%,
+        #bf7204 97.52%,
+        #c27500 100%,
+        #c27500 100%);
+  }
+}
+
+.right_item-info {
+  background-image: url(../images/amirsoy.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 350px;
+  height: 400px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  transition: 0.5s;
+  box-shadow: 0px 0 5px black,
+  0 0 10px black,
+  0 0 15px black,
+  0 0 20px black;
+}
+
+
+.right_item-info:nth-of-type(2) {
+  background-image: url(../images/tur_two.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.right_item-info:nth-of-type(3) {
+  background-image: url(../images/tur_there.jpg);
+}
+
+.right_item-info:nth-of-type(4) {
+  background-image: url(../images/amirsoy.jpg);
+}
+
+.right_item-info h3 {
+  color: #fff;
+  font-size: 35px;
+  font-family: "Prata", serif;
+  text-shadow: 0 0 10px black,
+    0 0 15px black,
+    0 0 20px black,
+    0 0 25px black,
+    0 0 30px black;
+  margin-bottom: 30px;
+  transition: 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.right_item-info:hover {
+  align-items: center;
+
+}
+
+.sidebar__menu {
+  position: absolute;
+  left: 25px;
+  width: 30px;
+  height: 40px;
+  top: 40px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.sidebar__menu {
+  display: none;
+}
+
+.sidebar__menu.active {
+  display: flex;
+}
+
+.sidebar__menu-line {
+  position: absolute;
+  width: 30px;
+  height: 2px;
+  top: 20px;
+  background-color: white;
+}
+
+.sidebar__menu-line:nth-of-type(1) {
+  top: 10px;
+  left: 0;
+}
+
+.sidebar__menu-line:nth-of-type(4) {
+  top: 30px;
+  left: 0;
+}
+
+@media (max-width: 1272px) {
+  .sidebar__menu {
+    display: flex;
+    margin-top: 40px;
+    position: absolute;
+    right: 10px;
+  }
+
+  .footer__nav {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.sidebar__menu.active .sidebar__menu-line:nth-of-type(1) {
+  -webkit-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  transform: translateX(-100%);
+}
+
+.sidebar__menu.active .sidebar__menu-line:nth-of-type(2) {
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.sidebar__menu.active .sidebar__menu-line:nth-of-type(3) {
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.sidebar__menu.active .sidebar__menu-line:nth-of-type(4) {
+  -webkit-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  transform: translateX(100%);
+}
+
+
+@media (max-width: 1300px) {
+  .header {
+    overflow: hidden;
+  }
+
+  .dropdown {
+    margin-top: 50px;
+  }
+
+  .cont_item .drop_list {
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media(max-width:672px) {
+  .cont_item .logo img {
+    width: 250px !important;
+    justify-content: center;
+  }
+}
+
+@media(max-width:613px) {
+  .main_one-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .cont_item {
+    justify-content: center !important;
+    gap: 20px;
+  }
+
+  .cont_item .logoo {
+    width: 250px !important;
+    margin-top: 20px !important;
+  }
+
+  .search {
+    margin-top: 25px;
+  }
+
+  .title__text {
+    margin-top: 20px !important;
+  }
+
+  .history__img {
+    height: 300px !important;
+
+  }
+
+  .header {
+    overflow: hidden;
+  }
+
+  .drop_list {
+    width: 100% !important;
+  }
+}
+
+@media(max-width:320px) {
+  .main_one-link {
+    font-size: 15px;
+    padding-left: 5px;
+  }
+
+  .cont_item .logo img {
+    width: 180px !important;
+  }
+}
+
+
+@media(max-width:378px) {
+  .main_one-link {
+    font-size: 18px;
+    padding-left: 5px;
+  }
+
+  .cont_item .logo img {
+    width: 180px !important;
+  }
+}
+
+@media(max-width:952px) {
+  .m_left-yotube {
+    flex-direction: column;
+  }
+
+  .m_left-yotube iframe {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+@media(max-width:660px) {
+  .m_left-yotube iframe {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+@media(max-width:400px) {
+  .right__title {
+    font-size: 35px;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  .m_left {
+    padding-bottom: 5px !important;
+  }
+
+  .m_left-text {
+    line-height: 30px;
+    font-size: 18px;
+  }
+
+  .tashkent_title {
+    font-size: 40px;
+  }
+
+  .sidebar__menu {
+    margin-top: 25px;
+  }
+
+  .right_item-info {
+    width: 300px;
+    height: 280px;
+  }
+
+  .m__yotube-title {
+    font-size: 26px;
+
+  }
+
+  .m__yotube-text {
+    font-size: 18px;
+    line-height: 25px;
+  }
+}
+
+@media(max-width:360px) {
+  .footer_email {
+    font-size: 18px;
+  }
+}

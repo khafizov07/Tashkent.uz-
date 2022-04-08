@@ -1,0 +1,993 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@500;700&family=Racing+Sans+One&family=Roboto:ital@0;1&family=Rubik:wght@300&display=swap");
+@import "../style/meida.css";
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.dropdown-toggle {
+  color: white !important;
+  text-decoration: none;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  color: white !important;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-slide {
+  width: 100%;
+  padding: 30px;
+  background-image: url(../images/tashkent.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 160px !important;
+}
+
+.title__text {
+  margin-top: 130px;
+}
+
+.swiper-slide:nth-of-type(2) {
+  width: 100%;
+  padding: auto;
+  background-image: url(../images/35_tashkent.jpg);
+}
+
+.swiper-slide:nth-of-type(3) {
+  width: 100%;
+  padding: auto;
+  background-image: url(../images/mayodn.jpg);
+}
+
+.swiper-slide:nth-of-type(4) {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../images/kulturni.jpg);
+}
+
+.swiper-slide:nth-of-type(5) {
+  width: 100%;
+  padding: auto;
+  background-image: url(https://uzbekistan.travel/storage/app/uploads/public/604/9ea/e3d/thumb_1608_1920_0_0_0_auto.jpg);
+}
+.city_phone {
+  display: flex;
+  overflow-x: scroll;
+}
+.mashrut_info,
+.mashrut_item {
+  display: flex;
+  overflow-x: scroll;
+}
+.itemm {
+  display: flex;
+  flex-shrink: 0;
+}
+
+.dropdown-toggle {
+  outline: none !important;
+}
+
+.dropdown-item {
+  font-size: 16px !important;
+  font-weight: 500;
+}
+
+.search {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(194, 178, 178, 0.466);
+  border-radius: 50%;
+}
+
+.logoo {
+  max-width: 410px !important;
+  width: 100% !important;
+}
+
+.search_img {
+  transition: 1s !important;
+}
+
+.search_img:hover {
+  transform: scale(1.2) !important;
+}
+
+.search_box {
+  transition: 1s;
+}
+
+.inpt {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.inpt input {
+  outline: none;
+  border: none;
+  padding-left: 15px;
+  font-size: 16px;
+  width: 500px;
+  height: 40px;
+  border-radius: 55px;
+  background-color: white;
+  margin-top: 30px;
+}
+
+.inpt {
+  display: none;
+  position: relative;
+  transition: 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  top: -500px;
+}
+
+.poisc {
+  height: 40px;
+  border-radius: 25px;
+  max-width: 100px;
+  width: 100%;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 4px;
+  position: absolute;
+  top: 30px;
+  right: 380px;
+}
+
+.poisc h3 {
+  font-size: 18px;
+  text-align: center;
+}
+
+.tashkent_title {
+  font-size: 75px;
+  color: #ffff;
+  font-weight: 700;
+  text-shadow: 0 0 10px rgb(37, 31, 31), 0 0 20px white, 0 0 30px white,
+    0 0 40px white, 0 0 50px white;
+}
+
+.tashkent_text {
+  font-size: 30px;
+  font-weight: 400;
+  color: rgb(215, 228, 228);
+  text-shadow: 0 0 10px rgb(20, 5, 5), 0 0 20px white, 0 0 30px white,
+    0 0 40px white, 0 0 50px white;
+  text-align: justify;
+  max-width: 700px;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.online_link {
+  width: 250px;
+  height: 50px;
+  background-color: red;
+  color: white !important;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  margin-top: 35px;
+  transition: 0.5s;
+}
+
+.online_link:hover {
+  transform: scale(1.2);
+  background-color: rgba(255, 0, 0, 0.473);
+  text-shadow: 0 0 10px rgb(20, 5, 5), 0 0 20px white, 0 0 30px white,
+    0 0 40px white, 0 0 50px white;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(
+    0deg,
+    #3800af 0%,
+    #bf7204 97.52%,
+    #c27500 100%,
+    #c27500 100%
+  );
+  border-radius: 30px;
+}
+
+.main__one {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.main__text-title h2 {
+  font-size: 48px;
+  font-family: "Prata", serif;
+  text-align: center;
+}
+
+.main__text-title p {
+  color: #222;
+  font-size: 26px;
+  font-style: italic;
+  margin-bottom: 28px;
+}
+
+.main__text-title h3 {
+  font-size: 21px;
+  color: #919193;
+  text-align: center;
+}
+
+.main__text-title a {
+  background: #dd2c00;
+  height: 50px;
+  line-height: 50px;
+  padding: 0 30px;
+  font-size: 21px;
+  color: #fff;
+  border-radius: 8px;
+  text-decoration: none;
+  margin: auto;
+  margin-top: 25px;
+}
+
+.main__text-title {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.title_mashrut {
+  margin-top: 50px;
+  color: black;
+  font-size: 45px;
+  font-family: "Prata", serif;
+}
+
+.item {
+  width: 330px;
+  height: 300px;
+  background-image: url(../images/20181206041011.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-position-x: right;
+  border-radius: 15px;
+
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.item:nth-of-type(2) {
+  background-image: url(../images/drujba.jpg);
+  background-position-x: left;
+}
+
+.item:nth-of-type(3) {
+  background-image: url(../images/minor-mosque1.jpg);
+  background-position-x: left;
+}
+
+.item:nth-of-type(4) {
+  background-image: url(../images/telebashniya.jpg);
+  background-position-x: left;
+}
+
+.item_title {
+  text-align: center;
+  font-weight: 500;
+  color: white;
+  display: flex;
+  align-items: flex-end;
+  justify-items: flex-end;
+  text-shadow: 0 0 5px rgb(36, 37, 34), 0 0 10px rgb(7, 7, 7),
+    0 0 15px rgb(12, 12, 11), 0 0 20px rgb(3, 3, 3), 0 0 25px rgb(22, 22, 21);
+  margin-bottom: 30px;
+  margin-left: 10px;
+}
+
+.item:hover {
+  transform: scale(0.9);
+  box-shadow: 0 0 5px rgb(36, 37, 34), 0 0 10px rgb(66, 66, 66),
+    0 0 15px yellowgreen, 0 0 20px yellowgreen, 0 0 25px yellowgreen;
+}
+
+.itemm:hover {
+  transform: scale(0.9);
+  box-shadow: 0 0 5px rgb(36, 37, 34), 0 0 10px rgb(66, 66, 66),
+    0 0 15px yellowgreen, 0 0 20px yellowgreen, 0 0 25px yellowgreen;
+}
+
+.item__link {
+  font-size: 18px;
+  width: auto;
+  display: block;
+  float: none;
+  line-height: 44px;
+  background: #dd2c00;
+  padding: 0 20px;
+  color: #fff !important;
+  border-radius: 4px;
+  margin: 0 auto;
+  max-width: 280px;
+  text-align: center;
+  margin-top: 30px;
+  text-decoration: none;
+}
+
+.mashrut_item {
+  display: none;
+}
+
+.itemm {
+  width: 330px;
+  height: 300px;
+  background-image: url(../images/tatu.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-position-x: right;
+  border-radius: 15px;
+
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.itemm:nth-of-type(2) {
+  background-image: url(../images/vagzaL.jpg);
+  background-position-x: left;
+}
+
+.itemm:nth-of-type(3) {
+  background-image: url(../images/yoju.jpg);
+  background-position-x: left;
+}
+
+.itemm:nth-of-type(4) {
+  background-image: url(../images/aira.jpg);
+  background-position-x: left;
+}
+
+.toshkent_city {
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+.city__park {
+  margin-top: 50px;
+}
+
+.city__park-title {
+  font-family: "Prata", serif;
+  margin-bottom: 12px;
+}
+
+.city__img {
+  width: 100%;
+}
+
+.city__park-text {
+  float: none;
+  font-size: 20px;
+  text-align: justify;
+  color: rgba(74, 74, 74, 1);
+  margin-top: 15px;
+}
+
+.city_link {
+  text-decoration: none;
+  color: rgba(74, 74, 74, 1) !important;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+/* toshkent_picture start */
+
+.phon_info {
+  width: 400px;
+  height: 300px;
+  overflow-x: hidden;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 20px;
+}
+
+.city_phone {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.item,
+.phon_info {
+  display: flex;
+  flex-shrink: 0;
+}
+
+@media (max-width: 1238px) {
+  .item ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  .item ::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(
+      0deg,
+      #3800af 0%,
+      #bf7204 97.52%,
+      #c27500 100%,
+      #c27500 100%
+    );
+    border-radius: 30px;
+  }
+
+  .phon_info::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  .phon_info::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(
+      0deg,
+      #3800af 0%,
+      #bf7204 97.52%,
+      #c27500 100%,
+      #c27500 100%
+    );
+    border-radius: 30px;
+  }
+}
+
+/* 
+
+body::-webkit-scrollbar {
+   width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+   background-image: linear-gradient(0deg, #3800AF 0%, #BF7204 97.52%, #C27500 100%, #C27500 100%);
+   ;
+   border-radius: 30px;
+} */
+.city_btn {
+  font-size: 18px;
+  width: auto;
+  display: block;
+  float: none;
+  line-height: 44px;
+  background: #dd2c00;
+  padding: 0 20px;
+  color: #fff !important;
+  border-radius: 4px;
+  margin: 0 auto;
+  max-width: 280px;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 28px;
+}
+
+.click_picture {
+  display: none;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.click_img {
+  width: 300px;
+  height: 300px;
+  border-radius: 15px;
+  overflow-y: hidden;
+}
+
+.hover_phone {
+  display: flex;
+}
+
+.footer {
+  background: #000;
+  margin-top: 100px;
+  padding-bottom: 50px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+}
+
+.footer__item {
+  margin-top: 35px;
+}
+
+.footer__title {
+  font-family: "Prata", serif;
+}
+
+.footer__link {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.38);
+}
+
+.footer_cal {
+  font-size: 22px;
+  font-weight: 700;
+  color: #fff !important;
+}
+
+.footer_email {
+  font-size: 22px;
+  color: #fff;
+}
+
+.footer_vremya {
+  font-size: 18px;
+  color: white !important;
+}
+
+.footer_email-text {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.37);
+}
+
+.facebook,
+.instagram,
+.pienter,
+.telegram,
+.youtube,
+.twiter {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+}
+
+.facebook {
+  background-color: #0990ff;
+  transition: 0.5s;
+}
+
+.facebook:hover {
+  box-shadow: 0 0 5px #0990ff, 0 0 10px #0990ff, 0 0 15px #0990ff,
+    0 0 20px #0990ff;
+}
+
+.face {
+  font-size: 25px;
+  color: white;
+}
+
+.instagram {
+  background: linear-gradient(
+    135deg,
+    #4c5ad1 0%,
+    #ff3756 42%,
+    #ff3e37 60%,
+    #ffd42b 100%
+  );
+  transition: 0.5s;
+}
+
+.instagram:hover {
+  box-shadow: 0 0 5px #ff3e37, 0 0 10px #ff3e37, 0 0 15px #ff3e37,
+    0 0 20px #ff3e37;
+}
+
+.insta {
+  font-size: 25px;
+  color: white;
+}
+
+.pienter {
+  background: red;
+  transition: 0.5s;
+}
+
+.pienter:hover {
+  box-shadow: 0 0 5px #ff0800, 0 0 10px #ff0800, 0 0 15px #ff0800,
+    0 0 20px #ff0800;
+}
+
+.piernt {
+  color: white;
+  font-size: 25px;
+}
+
+.telegram {
+  background: rgb(52, 131, 206);
+  transition: 0.5s;
+}
+
+.telegram:hover {
+  box-shadow: 0 0 5px rgb(60, 161, 255), 0 0 10px rgb(52, 131, 206),
+    0 0 15px rgb(52, 131, 206), 0 0 20px rgb(52, 131, 206);
+}
+
+.teleg {
+  color: white;
+  font-size: 30px;
+}
+.youtube {
+  background: rgb(255, 5, 5);
+  transition: 0.5s;
+}
+.youtube:hover {
+  box-shadow: 0 0 5px rgb(255, 0, 0), 0 0 10px rgb(255, 0, 0),
+    0 0 15px rgb(255, 0, 0), 0 0 20px rgb(255, 0, 0);
+}
+.yout {
+  color: white;
+  font-size: 30px;
+}
+.twiter {
+  background: rgb(19, 228, 255);
+  transition: 0.5s;
+}
+.twiter:hover {
+  box-shadow: 0 0 5px rgb(19, 228, 255), 0 0 10px rgb(19, 228, 255),
+    0 0 15px rgb(19, 228, 255), 0 0 20px rgb(19, 228, 255);
+}
+.twit {
+  color: white;
+  font-size: 25px;
+}
+
+@media (max-width: 1300px) {
+  .dropdown {
+    margin-top: 50px;
+  }
+  .drop_list {
+    position: fixed;
+    height: 100vh;
+    top: 0;
+    right: -100%;
+    display: flex;
+    flex-direction: column;
+    background: black;
+    width: 500px;
+    transition: 0.5s;
+  }
+  .drop_list.active {
+    right: 0;
+  }
+  /* .input {
+    display: none;
+  } */
+}
+/* menu */
+
+.sidebar__menu {
+  position: absolute;
+  left: 25px;
+  width: 30px;
+  height: 40px;
+  top: 40px;
+  cursor: pointer;
+  overflow: hidden;
+}
+.sidebar__menu {
+  display: none;
+}
+.sidebar__menu.active {
+  display: flex;
+}
+.sidebar__menu-line {
+  position: absolute;
+  width: 30px;
+  height: 2px;
+  top: 20px;
+  background-color: white;
+}
+
+.sidebar__menu-line:nth-of-type(1) {
+  top: 10px;
+  left: 0;
+}
+
+.sidebar__menu-line:nth-of-type(4) {
+  top: 30px;
+  left: 0;
+}
+@media (max-width: 1272px) {
+  .sidebar__menu {
+    display: flex;
+    margin-top: 40px;
+    position: absolute;
+    right: 10px;
+  }
+  .footer__nav {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.sidebar__menu.active .sidebar__menu-line:nth-of-type(1) {
+  -webkit-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  transform: translateX(-100%);
+}
+
+.sidebar__menu.active .sidebar__menu-line:nth-of-type(2) {
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.sidebar__menu.active .sidebar__menu-line:nth-of-type(3) {
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.sidebar__menu.active .sidebar__menu-line:nth-of-type(4) {
+  -webkit-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  transform: translateX(100%);
+}
+@media (max-width: 800px) {
+  .poisc {
+    right: -30px;
+  }
+  #ifarme {
+    max-height: 500px;
+  }
+  .click_picture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .logoo {
+    width: 300px !important;
+  }
+
+  .click_img {
+    box-shadow: 0 0 5px black, 0 0 10px black, 0 0 15px black, 0 0 20px black;
+  }
+}
+@media (max-width: 510px) {
+  .title__text {
+    margin-top: 0;
+  }
+  .tashkent_title {
+    font-size: 60px;
+  }
+  .cont_item {
+    justify-content: center !important;
+  }
+  .tashkent_text {
+    margin-top: 0;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+  }
+  .cont_item {
+    display: flex;
+    gap: 20px;
+  }
+  .logoo {
+    width: 200px !important;
+    margin-left: 35px;
+  }
+  .search {
+    width: 50px;
+    height: 50px;
+    margin-top: 8px;
+    z-index: -999;
+    flex-grow: 1;
+    position: absolute;
+    right: 8px;
+  }
+  .sidebar__menu {
+    margin-top: 25px;
+    margin-left: 10px;
+    z-index: 999;
+  }
+.click_picture  {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+  .search_img {
+    width: 25px !important;
+    height: 25px !important;
+  }
+  .inpt input {
+    width: 300px;
+    height: 40px;
+  }
+
+  .poisc {
+    height: 40px;
+    border-radius: 25px;
+    max-width: 100px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 0;
+  }
+}
+
+@media (max-width: 580px) {
+  .drop_list {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .dropdown-toggle {
+    font-size: 15px;
+    gap: 20px;
+  }
+  .dropdown {
+    margin: 0;
+  }
+  .facebook,
+  .instagram,
+  .pienter,
+  .telegram,
+  .youtube,
+  .twiter {
+    width: 35px;
+    height: 35px;
+  }
+  .facebook i,
+  .instagram i,
+  .pienter i,
+  .telegram i,
+  .youtube i,
+  .twiter i {
+    font-size: 18px;
+  }
+
+  .swiper-slide {
+    padding-bottom: 30px !important;
+  }
+  .online_link {
+    font-size: 15px;
+    font-weight: 400;
+  }
+}
+
+@media (max-width: 580px) {
+  .drop_list {
+    width: 320px !important;
+  }
+}
+@media (max-width: 373px) {
+  .drop_list {
+    width: 250px;
+  }
+  .tashkent_title {
+    font-size: 45px;
+  }
+  .title__text {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 580px) {
+  .main__text-title h2 {
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+  .main__text-title p {
+    font-size: 18px !important;
+    text-align: justify;
+  }
+  .main__text-title h3 {
+    font-size: 19px;
+  }
+  .title_mashrut {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 380px) {
+  .poisc {
+    right: -40px;
+  }
+}
+@media (max-width: 540px) {
+  .online__btn {
+    flex-direction: column;
+    align-items: center;
+  }
+  .online_link {
+    box-shadow: 0 0 5px rgb(255, 255, 255), 0 0 10px rgb(255, 255, 256),
+      0 0 15px rgb(255, 255, 255), 0 0 20px rgb(255, 255, 255);
+  }
+  .click_img{
+    width: 280px;
+  }
+}
+@media (max-width: 320px) {
+  .logoo {
+    width: 150px !important;
+  }
+  .search {
+    width: 45px !important;
+    height: 45px !important;
+  }
+  .search_img {
+    width: 18px !important;
+    height: 18px !important;
+  }
+  .hover_phone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+  }
+}
+@media (max-width: 320px) {
+  .footer {
+    margin-top: 30px;
+  }
+
+  .sidebar__menu-line {
+    width: 28px;
+    height: 2px;
+    top: 20px;
+  }
+
+}
